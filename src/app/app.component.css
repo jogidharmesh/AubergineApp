@@ -1,0 +1,42 @@
+.line{
+    border: 1px solid black;
+    height: 500px;
+    padding-left: 10px;
+}
+
+.img{
+    min-height: 135px;
+    margin-top: 5px;
+}
+.linec{
+    border: 1px solid black;
+    min-height: 182px;
+    padding-left: 10px;
+}
+.lined{
+    border: 1px solid black;
+}
+.linek{
+    border: 1px solid black;
+    min-height: 52px;
+}
+.space{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+@media screen and (max-width:560px)
+{
+.line{
+    min-height: 800px;
+}
+
+}
